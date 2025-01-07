@@ -5,6 +5,7 @@ import Contoh from "./homework30_2.tsx";
 import JumlahView from "./homework30_3.tsx";
 import JumlahMemo from "./homework30_4.tsx";
 import ContohContext from "./homework30_5.tsx";
+import HitungComponent from "./homework30_6.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -18,5 +19,7 @@ createRoot(document.getElementById("root")!).render(
     <JumlahMemo />
     <p>homework30_5</p>
     <ContohContext />
+    <p>homework30_6</p>
+    <HitungComponent />
   </StrictMode>
 );
